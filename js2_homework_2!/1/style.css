@@ -1,0 +1,327 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Lato;
+    background:white;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    background: #222222;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 26px ;
+}
+.header-left{
+    display: flex;
+    
+}
+.header-right{
+    display: flex;
+}
+.logo {
+    padding-right: 41px;
+    
+}
+.menu {
+    padding-right: 33px;
+    padding-left: 859px;
+}
+.account {
+    padding-right: 33px;
+}
+.basket {
+  
+}
+
+.banner{
+width: 100%;
+background: #F1E4E6;
+}
+.banner-content{
+    display: flex;
+
+}
+.content-left {
+    width: 800.58px;
+    height: 764px;
+    background-image: url(img/Layer_5.png);
+    position: relative;
+    right:230px;
+}
+.content-right{
+    width: auto;
+   
+}
+
+
+.top {
+    width: auto;
+    height: 93px;
+    display: flex;
+
+    padding-top: 290px;   
+ }
+ .rectangle {
+     width: 12px;
+     height: 100%;
+     background-color: #f16d7f;
+     
+ }
+ .denotement-text {
+     width: 450px;
+     height: 93px;
+     margin-left: 16px;
+ }
+ 
+ .text-style {
+     width: 450px;
+     font-size: 48px;
+     font-weight: 900;
+     font-stretch: normal;
+     font-style: normal;
+     text-align: left;
+     color: #222222;
+     text-transform: uppercase;
+     line-height: 1.2em; 
+ }
+ 
+ .text-style-1 {
+   font-size: 28px;
+   letter-spacing: 1px;  
+   
+ }
+ 
+ .text-style-1::after {
+     content: ' FASHION';
+     color: #f16d7f; 
+ }
+ .sections {
+     width: 100%;
+     background-color:white;
+}
+.content-sections {
+    padding-top: 65px;
+}
+.section-clothes{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section {
+    width: 360px;
+    height: 260px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.section-women{
+    background-image: url(img/Layer43.png);
+   
+}
+.section-men{
+    background-image: url(img/Group37.jpg);
+}
+.section-kids{
+    background-image: url(img/Group38.jpg);
+}
+.section-accesories {
+    width: 100%;
+    height: 180px;
+    margin-top: 30px;
+    background-image: url(img/Group39.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-text {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 19px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 19px;
+    margin-top: 16px;
+}
+.product-text1 {
+    font-style: normal;
+    letter-spacing: 0.45px;
+    line-height: normal;
+    margin-bottom: 0em;
+    text-align: center;
+}
+
+.product-text2{
+    color: #f16d7f;
+    font-size: 30px;
+    font-style: normal;
+    letter-spacing: 0.75px;
+    line-height: normal;
+    margin-top: 0em;
+  
+    
+}
+.product-box1{
+    width:154px;
+    height: 50px;
+    
+}
+.items{
+    width: 380px;
+    height: 12px;
+    padding-top: 96px;
+}
+.items-text1{
+    color: #222222;
+    font-style: normal;
+    letter-spacing: 0.35px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 30px;
+}
+.items-text2{
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 17px;
+    text-align: center;
+    margin-top: 6px;
+}
+.shipment{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 48px;
+}
+
+.product {
+    width: 360px;
+    height: 581px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    background: #F8F8F8;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+
+}
+.description{
+    margin-left: 17px;
+    margin-top: 12.5px;
+    margin-bottom: 18px;
+    width: 314.74px;
+    height: 51px;
+}
+.product_name{
+    margin-top: 25.5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000; 
+    margin-left: 17px;
+}
+
+
+/* $52.00 */
+
+
+
+.button-product1 {
+    width: 211px;
+    height: 47px; 
+    background: #F16D7F;
+    border: 1px solid #FF6A6A;
+    color: white;
+margin-left: 500.5px;
+margin-top: 48.5px;
+}
+.black_block{
+    width: 100%;
+    height: 341px;
+    background-color: black;
+    margin-top: 95.5px;
+}
+.advantages{
+   display: flex;
+   justify-content: space-around;
+   margin-left: 230px;
+}
+.free_delivery{
+    width: 360px;
+    height: 134px;
+    background-color: black;
+    margin-top: 103px;
+}
+
+.goods-list{
+    width: 1300px;
+    margin-top: 56px;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+.goods-item{
+    color: #F16D7F;
+    background-color: rgb(187, 185, 185);
+}
+.goods-item:hover{
+    color: white;
+    background-color: white;
+}
+.mask{
+    background-color: #F16D7F;
+}
+.mask:hover{
+    background-color: rgb(187, 185, 185);
+}
+
+.product_name{
+    margin-top: 25.5px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000; 
+    margin-left: 17px;
+}
+.description{
+    margin-left: 17px;
+    margin-top: 12.5px;
+    margin-bottom: 18px;
+    width: 314.74px;
+    height: 51px;
+    color: #5D5D5D;
+}
+.price{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F16D7F; 
+    margin-left: 17px;
+   
+}

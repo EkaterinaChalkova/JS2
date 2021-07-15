@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: cadetblue;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+main input {
+    display: block;
+  }
+  
+  main p {
+    padding-left: 100px;
+  }
+  
+  main span {
+    padding-left: 100px;
+  }
+ .all_content{
+   width: 600px;
+   height: 800px;
+   
+ }
+ .text_1{
+   margin-top: 40px;
+   margin-bottom: 30px;
+   color: darkgreen;
+ }
+
+ .text_2{
+  margin-bottom: 30px;
+  color: rgb(14, 37, 14);
+  font-size: medium;
+}
+ .choice_size{
+  margin-top: 30px;
+   display: flex;
+  font-size: medium;
+  color:darkslategray;
+  
+ }
+ .checked_2{
+   margin-left: 50px;
+   
+ }
+ .choice_filling {
+    margin-top: 30px;
+    font-size: medium;
+    color:darkslategray;
+    justify-content: center;
+ }
