@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Lato;
+    background:white;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    background: #222222;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    
+    padding-top: 26px ;
+}
+.header-left{
+    display: flex;  
+}
+
+.logo {
+    padding-right: 41px;
+    padding-bottom: 15px;
+    
+}
+.menu {
+    padding-right: 33px;
+    padding-left: 859px;
+}
+.account {
+    padding-right: 33px;
+}
+.basket-btn,.found_btn{
+    border: none;
+    background-color: #222222;
+    border: none;
+}
+.found_btn{
+    display: flex;  
+}
+
+
+
+/* содержимое корзины */
+.cart_contant{
+
+    background-color: thistle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 25px;
+
+}
+
+
+/* товар */
+.content{
+
+    margin-top: 85px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.good-element-title{
+    font-size: 30px;
+    color:#a072db;
+    text-align: center;
+}
+.good-element-price{
+    font-size: 30px;
+    color:#a072db;
+    text-align: center;
+}
+.buy_btn_style{
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #a072db;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+
+
+.close{
+    background-color: #F16D7F;
+    width: 30px;
+    height: 35px;
+   
+}
